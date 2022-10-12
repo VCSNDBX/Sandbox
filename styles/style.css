@@ -1,0 +1,48 @@
+/*---------------------------------Fonts------------------------------*/
+
+@font-face{font-family: "Caviar Dreams"; src: url('../fonts/CaviarDreams.ttf') format("truetype");}
+@font-face{font-family: "Droid Sans"; src: url('../fonts/DroidSans_1.ttf') format("truetype");}
+
+/*----------------------------------Body--------------------------------------------------*/
+
+body{ margin: 0; padding: 0; width: 100%; font-family: "Droid Sans"; color: #6d6e76;}
+h2{	font-family: "Caviar Dreams";}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+/* New Header <3*/
+#logo {position: relative; width: 196px; height: 67px; top: 25px;}
+#top{ width: 100%; height: 178px; background: url(../images/bgTop.png) repeat-x top center;}
+#topCon {position: relative; width: 1232px; height: auto; margin: auto; }
+/* Menu Bar*/
+#navi{ position: relative; top: 75px;}
+#navi ul{ margin: 0; padding: 0; list-style-type: none;}
+#navi ul li { display: inline-block; width: 100px; }
+#navi ul li a{ color: #363636; text-transform: uppercase; font-size: 10pt; text-decoration: none;}
+#navi ul li a:hover{color: #db751b;	text-transform: uppercase; font-size: 10pt; text-decoration: none;}
+
+/*--------------------------------------------Content---------------------------------*/
+
+#slide{	width: 100%; height: 377px;	background: url(../images/bgMain.png) repeat-x top center;}
+#slideCon{ margin: auto; width: 1232px;	height: 377px; background: #4893b0;}
+#white{	width: 100%; height: auto;}
+#whiteCon{ margin: auto; margin-top: 40px; width: 1232px; height: 340px; background: #fff;}
+#whiteCon_auto{	margin: auto; overflow: auto; margin: 40px auto 40px auto; width: 1232px; height: auto;	background: #fff;}
+#grey{ width: 100%; height: auto; margin-top: 200px; background: #f5f5f5; }
+#greyCon{ position: relative; margin: auto; padding-top: 40px; width: 1232px; height: 377px; }
+#title{ margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #b7b7b7}
+
+/* List */
+#info{font-size: 11pt; min-height: 250px;}
+#info ul{ margin: 0; list-style-type: square;}
+#info ul li{margin-top: 10px; color: #db751b;}
+#info ul li span{color: #6d6e76;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{ width: 100%; background: url(../images/bgFooter.png) repeat-x top center; font-family: "Droid Sans"; color: #fff;}
+#footerCon{	margin: auto; width: 1232px; height: 50px;}	/*background: url(../images/footerCont.png) no-repeat; background-position: 0 20px;}*/
+
+/*----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{	clear: both; color: #fff; font-size: 10pt; text-align: right;}
